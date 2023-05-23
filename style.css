@@ -1,0 +1,188 @@
+body{
+    background-image: linear-gradient(to bottom, #bbe3f5, #F8CBA6);
+    background-size:cover;
+}
+
+.navbar{
+    background-image: linear-gradient(to top, #bbe3f5, #F8CBA6);
+    background-size:cover;
+    border-bottom:2px solid #394e65;
+}
+
+header{
+    text-align: center;    
+    font-style: normal;
+}
+
+.rainbowicon{
+    width:7vmax;
+    height: 7vmax;
+    margin-right: 3vmax;
+    margin-left: 1vmax;
+}
+
+.topic{
+    font-size: 2.7vmax;
+    font-family: 'Allura', cursive;
+}
+
+h2{
+    font-family: 'Lobster', cursive;
+    margin: 1.5vmax;
+}
+
+.weather_today{
+    margin-top: 2vmax;
+    width: min-content;
+    height:min-content;
+    border-radius: 15%;
+    border-style:solid;
+    border-width: 0.7vmax;
+    border-color:#f1e0e8;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;    
+}
+
+.weather_details{
+    margin: 6vmax;
+}
+
+.weather_city{
+    font-size: 3vmax;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.weather_day{
+    font-size: 2.5vmax;
+}
+
+.weather_time{
+    font-size: 1.5vmax;
+    margin-bottom: 5vmax;
+}
+
+.weather_temperature{
+    margin: 6vmax;
+}
+
+.weather_image{
+    width:25vmin;
+    height:25vmin;
+    margin-top: 5vmax;
+}
+
+.weather_indicator{
+    display: block;    
+}
+
+.weather_indicator::before{
+    content: '';
+    display: inline-block;    
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.weather_indicator-humidity{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;
+}
+
+.weather_indicator-humidity::before{
+    background-image: url(assets/icons/humidity.png);    
+}
+
+.weather_indicator-wind{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;
+}
+
+.weather_indicator-wind::before{
+    background-image: url(assets/icons/wind.png);    
+}
+
+.weather_indicator-pressure{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;    
+}
+
+.weather_indicator-pressure::before{
+    background-image: url(assets/icons/pressure.png);
+}
+
+.weather_temperature{
+    font-size: 3vmax;
+    /* background-color: #ABD9FF; */
+    color: #394e65;
+    height: max-content;
+    width: max-content;
+    border-radius: 7%;
+}
+
+.twodays{
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    justify-content:space-around;    
+}
+
+.day-2{
+    width: 25vw;
+    height: max-content;
+    border-radius: 8%;
+    border: 5px solid #b2d1df ;
+    background-color: #394e6521;  
+}
+
+.tempsize{
+    font-size: 2vmax;
+    color: #4f2e13;
+    font-family: 'Pangolin', cursive;
+}
+
+.lead{
+    font-size: 2vmax;
+    font-family: 'Roboto Mono', monospace;
+    color: #8b5c3f;
+}
+
+.weather_forecast_icon{
+    width:10vmin;
+    height:10vmin;
+    
+}
+
+footer {
+    font-size: 3vmax;
+    font-weight: 700;
+    font-style: italic;
+    background-color: #7D6E83;
+    color: antiquewhite;
+    font-family: 'Amatic SC', cursive;
+    padding-left: 9vmax;
+    padding-top: 1.5vmax;
+    padding-bottom: 1.5vmax;
+}
+
+.insta {
+    margin: 1vmax;
+    margin-left: 2vmax;
+    color: rgb(232, 120, 189)
+}
+
+.linkedin {
+    margin: 1vmax;
+    color: navy;
+}
+
+.git {
+    margin: 1vmax;
+    color: black
+}
