@@ -1,5 +1,12 @@
+.topic{
+    font-size: 4.5vmax;
+    font-family: 'Allura', cursive;
+    margin-right: 10vmax;
+    margin-left: 4vmax;
+}
+
 body{
-    background-image: linear-gradient(to bottom, #bbe3f5, #F8CBA6);
+    background-image: linear-gradient(to bottom, white, rgba(83, 79, 79, 0.861));
     background-size:cover;
 }
 
@@ -163,7 +170,7 @@ footer {
     font-size: 3vmax;
     font-weight: 700;
     font-style: italic;
-    background-color: #7D6E83;
+    background-color: black;
     color: antiquewhite;
     font-family: 'Amatic SC', cursive;
     padding-left: 9vmax;
