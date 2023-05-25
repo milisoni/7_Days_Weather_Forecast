@@ -80,6 +80,18 @@ searchInp.addEventListener('keydown', async (e) => {
     }
 });
 
+let searchButton = document.querySelector('.search-button');
+searchButton.addEventListener('click', searchBtn);
+
+function searchBtn() {
+    
+    const enteredValue = searchInp.value;
+    console.log(enteredValue);
+    getWeatherByCityName(enteredValue)
+        .then(weather => updateCurrentWeather(weather))
+        .catch(error => console.log(error));
+}
+
 let updateCurrentWeather = (data) => {
     city.textContent = data.city.name + ', ' + data.city.country;
     day1.textContent = dayOfWeek(0);
@@ -216,7 +228,7 @@ let updateCurrentWeather = (data) => {
     wind5.textContent = windDirection5 + ', ' + data.list[4].wind.speed;
     wind6.textContent = windDirection6 + ', ' + data.list[5].wind.speed;
     wind7.textContent = windDirection7 + ', ' + data.list[6].wind.speed;
-    
+
 
     //temperatures for 7 days
 
@@ -241,7 +253,7 @@ let updateCurrentWeather = (data) => {
     temperature7.textContent =
         data.list[6].main.temp > 0 ? '+' + Math.round(data.list[6].main.temp) : Math.round(data.list[6].main.temp);
 
-//icons for 7 days
+    //icons for 7 days
 
     let iconUrl1 = getIconUrl(data.list[0].weather[0].icon);
     newicon1.setAttribute('src', iconUrl1);
