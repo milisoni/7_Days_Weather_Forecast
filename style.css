@@ -400,14 +400,14 @@ h2{
 }
 
 .twodays{
-    width: 100vw;
+    width: max-content;
     height: max-content;
     display: flex;
     justify-content:space-around;    
 }
 
 .day-2{
-    width: 35vw;
+    width: max-content;
     height: max-content;
     border-radius: 8%;
     border: 5px solid #edf5f9 ;
