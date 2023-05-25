@@ -25,7 +25,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -35,7 +35,7 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
     <script src="main.js" defer></script>
-    
+
 
     <header>
         <div class="px-3 py-2 text-bg-dark">
@@ -45,7 +45,7 @@
                         class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
                         <svg class="logo bi me-2" width="" height="32" role="img" aria-label="Bootstrap"><img
                                 src="https://i.pinimg.com/originals/15/3e/80/153e80b4827e3844601489ef631a6edd.jpg"
-                                 alt="Logo" width="70" height="70"></svg>
+                                alt="Logo" width="70" height="70"></svg>
                     </a>
                     <h1 class="topic">Weather Forecast</h1>
 
@@ -66,7 +66,7 @@
                                 HOW TO USE THIS APP?
                             </a>
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
@@ -76,13 +76,13 @@
         <div class="px-3 py-2 border-bottom mb-3">
             <div class="container d-flex flex-wrap justify-content-center">
                 <form class="d-flex" role="search">
-                    <input class="weather_search form-control me-2" type="text" placeholder="Enter City Name"
+                    <input class="searchbar weather_search form-control me-2" type="text" placeholder="Enter City Name"
                         aria-label="Search" spellcheck="false">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-outline-success search-button" type="button" onclick="searchBtn()">Search</button>
                 </form>
             </div>
         </div>
-        <!-- END OF SEARCHBAR-->        
+        <!-- END OF SEARCHBAR-->
     </header>
 
     <div align="center">
@@ -158,23 +158,11 @@
                         <p class="weather_indicator2 weather_indicator-wind4"><span class="value">West, 5</span>m/s</p>
                         <p class="weather_indicator2 weather_indicator-pressure4"><span class="value">1050</span>hPa</p>
                     </div>
-
-
                 </div>
             </div>
-
         </div>
-    </div>
 
-
-
-
-
-
-
-
-    <!-- day 5 & 6 & 7 -->
-    <div class="twodays day-2-3 d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 justify-content-center">
+        <!-- day 5 & 6 & 7 -->
 
         <!-- day 5 -->
         <div class="day-2 me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
@@ -190,8 +178,6 @@
                         <p class="weather_indicator2 weather_indicator-wind5"><span class="value">West, 5</span>m/s</p>
                         <p class="weather_indicator2 weather_indicator-pressure5"><span class="value">1050</span>hPa</p>
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -210,8 +196,6 @@
                         <p class="weather_indicator2 weather_indicator-wind6"><span class="value">West, 5</span>m/s</p>
                         <p class="weather_indicator2 weather_indicator-pressure6"><span class="value">1050</span>hPa</p>
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -230,8 +214,6 @@
                         <p class="weather_indicator2 weather_indicator-wind7"><span class="value">West, 5</span>m/s</p>
                         <p class="weather_indicator2 weather_indicator-pressure7"><span class="value">1050</span>hPa</p>
                     </div>
-
-
                 </div>
             </div>
         </div>
