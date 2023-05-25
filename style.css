@@ -40,7 +40,7 @@ h2{
 
 .weather_today{
     margin-top: 2vmax;
-    width:max-content;
+    width:100vw;
     height:max-content;
     border-radius: 15%;
     border-style:solid;
@@ -403,11 +403,12 @@ h2{
     width: max-content;
     height: max-content;
     display: flex;
-    justify-content:space-around;    
+    justify-content:space-around; 
+    flex-wrap: wrap;   
 }
 
 .day-2{
-    width: max-content;
+    width: 30vw;
     height: max-content;
     border-radius: 8%;
     border: 5px solid #edf5f9 ;
